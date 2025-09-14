@@ -12,6 +12,10 @@ main {
     background-image: url(../img/kirakira.jpg);
     background-size: cover;
 }
+
+h2 {
+    font-size: 2rem;
+}
 /* wrapper */
 .wrapper {
     text-align: center;
@@ -20,6 +24,7 @@ main {
     letter-spacing: 1.5px;
     color: #2a2a2a;
 }
+
 /* header */
 header {
     position: relative;
@@ -27,7 +32,7 @@ header {
 }
 header img {
     position: absolute;
-    
+    opacity: 0;
     object-position: center;
     animation: slideAnime 20s infinite;
 }
@@ -198,6 +203,9 @@ li {
 .map-2 img {
     width: 120px;
 }
+.map-2 {
+    align-items: center;
+}
 .map-3 img {
     width: 70px;
     height: 124px;
@@ -240,7 +248,7 @@ iframe {
         display: none;
     }
     .team {
-        width: 400px;
+        width: 360px;
     }
     .team-2 {
         flex-direction: column;
@@ -276,8 +284,13 @@ iframe {
         flex-direction: column;
         width: 300px;
     }
+    .hyogo p:first-of-type , .tokyo p:first-of-type {
+        font-weight: bold;
+    }
     .map-3 img {
         width: 120px;
     }
-
+    .hyogo {
+        padding-bottom: 40px;
+    }
 }
