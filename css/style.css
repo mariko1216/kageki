@@ -118,6 +118,7 @@ h1 , h2 {
     object-position: center;
     border-radius: 20px;
     animation: slide 10s infinite;
+    opacity: 0;
     /* transition: opacity 1s ease; */
 }
 
